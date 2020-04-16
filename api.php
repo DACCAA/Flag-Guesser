@@ -1,6 +1,6 @@
 <?php
 // Get the contents of the JSON file
-$data = file_get_contents("cache/all.json");
+$data = file_get_contents("all.json");
 // Decode it so we can work with it in PHP
 $data = json_decode($data, true);
 
