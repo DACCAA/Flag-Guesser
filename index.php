@@ -10,17 +10,8 @@
   <!-- Link your own stylesheet -->
   <link rel="stylesheet" type="text/css" href="main.css?v=<?php echo filemtime('main.css'); ?>">
   
-  <?php
-  require_once('../required/menuTop.php');
-  ?>
-  
 </head>
 <body>
-  
-  <?php
-  require_once('../required/menu.php');
-  echo $menuLink;
-  ?>
   
   <!-- Declare a loading bar we can show at the top of the page -->
   <div class="full-width-loader"></div>
